@@ -1,0 +1,27 @@
+canvas{
+    animation-name: test;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+    }
+    @keyframes test{
+        from{
+            box-shadow:1px 1px 40px rgb(97, 3, 248);
+        }
+        to{
+            box-shadow:1px 1px 40px rgb(0, 255, 128);
+        }
+    }
+    body{
+        background-image: url("v877-mynt-31.jpg");
+       background-size: 70%;
+    }
+  .t{
+
+border-radius: 10px;
+   }
+   .btn-warning:hover{
+    background-color:rgb(255, 0, 221) ;
+    }
+    .t:hover{
+        background-color:rgb(129, 119, 128) ;
+        }
